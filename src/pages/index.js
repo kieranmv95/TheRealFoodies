@@ -12,7 +12,7 @@ class Index extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Home" />
         <div className={styles.titleBlock}>
           <img src="logo.white.svg" className={styles.logo}/>
           <h1 className={styles.title}>The Real Foodies</h1>
